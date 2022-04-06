@@ -57,7 +57,7 @@ End the program and close the output video windows by pressing 'q'.
 
     ret,frame=cap.read()
 
-    cv2.imwrite("pic_1.jpg",frame)
+    cv2.imwrite("myself.jpg",frame)
 
     cap.release()
 
