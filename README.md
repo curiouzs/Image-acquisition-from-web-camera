@@ -13,7 +13,7 @@ iv) Rotate and display the video
 Anaconda - Python 3.7
 
 
-##ALGORITHM 
+## ALGORITHM 
 
 Step 1:
 
@@ -40,8 +40,8 @@ End the program and close the output video windows by pressing 'q'.
 ## Program:
 
 
-## Developed By: Vijayaragavan ARR
-### Register No: 212220230059
+## Developed By: Lokesh Krishnaa M
+### Register No: 212220230030
 
 ## i) Write the frame as JPG file
 
@@ -70,8 +70,8 @@ cap.release()
 cv2.destroyAllWindows()
 
 
-## iii) Display the video by resizing the window
 
+## iii) Display the video by resizing the window
 
 import cv2
 import numpy as np
@@ -91,6 +91,8 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
+
 
 
 ## iv) Rotate and display the video
@@ -113,9 +115,6 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
-
 
 
 ## Output
@@ -146,7 +145,6 @@ cv2.destroyAllWindows()
 ![frame 06-04-2022 21_55_20](https://user-images.githubusercontent.com/75234646/162025667-a72dfd9b-61e7-411f-8bd7-d5a7dcfd7159.png)
 
 
-
 </br>
 
 
@@ -154,7 +152,8 @@ cv2.destroyAllWindows()
 
 ### iv) Rotate and display the video
 </br>
-![frame 06-04-2022 21_56_09](https://user-images.githubusercontent.com/75234646/162025695-6fba6c81-6c8b-4761-b6fb-76de0f227f9e.png)
+
+![frame 06-04-2022 21_56_09](https://user-images.githubusercontent.com/75234646/162025988-56e0a3a1-7c11-4b32-9f7d-0c9cfb65a80a.png)
 
 
 </br>
@@ -162,4 +161,5 @@ cv2.destroyAllWindows()
 
 
 ## Result:
+
 Thus the image is accessed from webcamera and displayed using openCV.
